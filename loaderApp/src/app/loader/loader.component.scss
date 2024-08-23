@@ -1,0 +1,24 @@
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: rgb(235, 232, 232);
+    z-index: 9999; // Asegúrate de que esté sobre otros elementos
+  }
+  
+  .loader {
+    text-align: center;
+    color: black;
+    align-content: space-around;
+  }
+  
+  .loader img {
+    max-width: 100%;
+    height: auto;
+  }
+  
