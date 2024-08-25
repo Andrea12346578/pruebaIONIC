@@ -1,8 +1,8 @@
 <ion-content *ngIf="isVisible">
   <div class="loader-container">
     <div class="loader">
-      <img [src]="images[currentIndex]?.src" alt="Loader Image">
-      <p>{{ images[currentIndex]?.text }}</p>
+      <img [src]="images[currentIndex]!.src" alt="Loader Image">
+      <p>{{ images[currentIndex]!.text }}</p>
     </div>
   </div>
 </ion-content>
